@@ -3,6 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+USE Illuminate\Support\Facades\DB;
+use App\Counseling;
+Use Illuminate\Support\Facades\Auth;
+
 
 class HomeController extends Controller
 {
@@ -27,8 +31,12 @@ class HomeController extends Controller
     }
 
     public function facultyHome()
-    {
-        return view('faculty.facultyhomepage');
+    {   
+        $user = Auth::user();
+        $data = $user->Counseling;
+        //$data = Counseling::where('user_id', '1')->get(); 
+
+        return view('faculty.facultyhomepage' , compact('data') );
     }
 
 

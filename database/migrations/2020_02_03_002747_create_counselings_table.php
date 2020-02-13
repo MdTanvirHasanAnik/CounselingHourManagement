@@ -15,12 +15,11 @@ class CreateCounselingsTable extends Migration
     {
         Schema::create('counselings', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->dateTime('startTime');
-            $table->dateTime('endTime');
-            $table->integer('no_student');
+            $table->string('startTime');
+            $table->string('endTime');
             $table->string('day');
-            $table->integer('faculty_id')->unsigned();
-            $table->foreign('faculty_id')->references('id')->on('users')->onDelete('cascade');
+            $table->biginteger('user_id')->unsigned();
+            $table->foreign('user_id')->references('id')->on('users');
             $table->timestamps();
         });
     }

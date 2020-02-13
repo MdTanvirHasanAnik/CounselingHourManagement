@@ -7,9 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 class Counseling extends Model
 {
     protected $fillable = [
-        'id', 'startTime', 'endTime' , 'day','no_student', 'faculty_id' ,'updated_at', 'created_at'
+        'id', 'startTime', 'endTime' , 'day', 'user_id' ,'updated_at', 'created_at'
     ];
-    public function Faculty()
+    public function User()
     {
         return $this->belongsTo('App\User');
     }

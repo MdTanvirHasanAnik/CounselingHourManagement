@@ -21,13 +21,11 @@ class CounselingController extends Controller
             'startTime' => $r['startTime'],
             'endTime' => $r['endTime'],
             'day' => $r['day'],
-            'no_student' => $r['no_student'],
-            'faculty_id' => $r['user_id'],
+        
+            'user_id' => $r['user_id'],
         ]);
-           $startTime = $r['startTime'];
-           $endTime = $r['endTime'];
-           $no_student = $r['no_student'];
-        self::slotting($startTime , $endTime , $no_student);
+        
+    
 
         return "success";
      
