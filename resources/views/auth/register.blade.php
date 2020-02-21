@@ -74,4 +74,8 @@
         </div>
     </div>
 </div>
+
+<script>
+$document.getElementByID(email).addEventListener
+</script>
 @endsection

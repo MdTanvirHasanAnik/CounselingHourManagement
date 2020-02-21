@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
+use App\Rules\Emailtype;
 use App\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
@@ -51,8 +52,9 @@ class RegisterController extends Controller
     {
         return Validator::make($data, [
             'name' => ['required', 'string', 'max:255'],
-            'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
+            'email' => ['required', 'string', 'email', 'max:255', 'unique:users', new Emailtype],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
+
         ]);
     }
 
@@ -64,9 +66,38 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
+
+
+        $find   = '@diu.edu.bd';
+        $find2 = '@daffodilvarsity.edu.bd';
+
+        if (strpos($data['email'], $find) !== false) {
+            $type = 'student';
+
+        }
+
+
+        if (strpos($data['email'], $find) !== false) {
+            $arr = array('cse', 'bba', 'ged', 'eee' , 'swe' , 'law' );
+            foreach ($arr as $value) {
+                if ( strpos($data['email'], $value) !== false){
+                    $type = 'faculty';
+        
+                } 
+               
+            }
+            
+
+        } else if (strpos($data['email'], $find2) !== false) {
+            $type = 'faculty';
+        }
+
+
         return User::create([
+
             'name' => $data['name'],
             'email' => $data['email'],
+            'userType' => $type,
             'password' => Hash::make($data['password']),
         ]);
     }
