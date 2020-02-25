@@ -52,8 +52,11 @@ class RegisterController extends Controller
     {
         return Validator::make($data, [
             'name' => ['required', 'string', 'max:255'],
+            'uid' => ['required', 'string', 'max:255', 'unique:users'],
+
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users', new Emailtype],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
+            
 
         ]);
     }
@@ -82,7 +85,6 @@ class RegisterController extends Controller
             foreach ($arr as $value) {
                 if ( strpos($data['email'], $value) !== false){
                     $type = 'faculty';
-        
                 } 
                
             }
@@ -96,7 +98,10 @@ class RegisterController extends Controller
         return User::create([
 
             'name' => $data['name'],
+            'uid' => $data['uid'],
+
             'email' => $data['email'],
+
             'userType' => $type,
             'password' => Hash::make($data['password']),
         ]);

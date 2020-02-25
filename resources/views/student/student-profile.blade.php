@@ -407,7 +407,14 @@
                                                         </li>
                                                         <li><a href="faculty/#"><span class="edu-icon edu-settings author-log-ic"></span>Settings</a>
                                                         </li>
-                                                        <li><a href="faculty/#"><span class="edu-icon edu-locked author-log-ic"></span>Log Out</a>
+                                                        <li> <a href="{{ route('logout') }}" onclick="event.preventDefault();
+                                                 document.getElementById('logout-form').submit();">
+                                                                {{ __('Logout') }}
+                                                            </a>
+
+                                                            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                                                @csrf
+                                                            </form>
                                                         </li>
                                                     </ul>
                                                 </li>

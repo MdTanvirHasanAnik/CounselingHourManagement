@@ -33,4 +33,8 @@ Route::POST('/counseling/create', 'CounselingController@createCounseling' )->nam
 
 Route::get('/profile', 'ProfileController@index')->name('profile.faculty');
 
+Route::POST('/profile/create', 'FacultyProfileController@store')->name('profile.create');
+
+
+
 });

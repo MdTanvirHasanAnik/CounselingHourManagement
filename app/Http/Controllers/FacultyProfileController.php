@@ -1,9 +1,10 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\User;
 use App\FacultyProfile;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class FacultyProfileController extends Controller
 {
@@ -24,7 +25,7 @@ class FacultyProfileController extends Controller
      */
     public function create()
     {
-        //
+        
     }
 
     /**
@@ -33,9 +34,23 @@ class FacultyProfileController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
-    {
-        //
+    public function store(Request $r)
+    {      
+
+        $user = Auth::user();
+        
+        user::FacultyProfile()->create(
+            [
+                'designation' => $r['designation'],
+                 'department' => $r['department'], 
+                 'area_of_interest' => $r['area_of_interest'], 
+                 'mobile_no' => $r['mobile_no'], 
+                 
+            ]
+            
+
+        );
+        return "done";
     }
 
     /**

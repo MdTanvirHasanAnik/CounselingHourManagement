@@ -24,6 +24,26 @@
                                 @enderror
                             </div>
                         </div>
+                        <div class="form-group row">
+                            <label for="uid" class="col-md-4 col-form-label text-md-right">ID</label>
+
+                            <div class="col-md-6">
+                                <input id="uid" type="text" class="form-control @error('name') is-invalid @enderror" name="uid"  required autofocus>
+
+                                @error('uid')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+
+
+
+
+
+
+
 
                         <div class="form-group row">
                             <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>

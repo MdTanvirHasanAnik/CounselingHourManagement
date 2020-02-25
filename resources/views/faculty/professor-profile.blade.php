@@ -15,10 +15,10 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
     <!-- Bootstrap CSS
 		============================================ -->
-    
 
 
-    <link rel="stylesheet" href="faculty/css/bootstrap.min.css"> 
+
+    <link rel="stylesheet" href="faculty/css/bootstrap.min.css">
     <!-- Bootstrap CSS
 		============================================ -->
     <link rel="stylesheet" href="faculty/css/font-awesome.min.css">
@@ -86,9 +86,9 @@
                     <ul class="metismenu" id="menu1">
                         <li>
                             <a class="has-arrow" href="faculty/index.html">
-								   <span class="educate-icon educate-home icon-wrap"></span>
-								   <span class="mini-click-non">Education</span>
-								</a>
+                                <span class="educate-icon educate-home icon-wrap"></span>
+                                <span class="mini-click-non">Education</span>
+                            </a>
                             <ul class="submenu-angle" aria-expanded="true">
                                 <li><a title="Dashboard v.1" href="faculty/index.html"><span class="mini-sub-pro">Dashboard v.1</span></a></li>
                                 <li><a title="Dashboard v.2" href="faculty/index-1.html"><span class="mini-sub-pro">Dashboard v.2</span></a></li>
@@ -244,8 +244,8 @@
                                     <div class="col-lg-1 col-md-0 col-sm-1 col-xs-12">
                                         <div class="menu-switcher-pro">
                                             <button type="button" id="sidebarCollapse" class="btn bar-button-pro header-drl-controller-btn btn-info navbar-btn">
-													<i class="educate-icon educate-nav"></i>
-												</button>
+                                                <i class="educate-icon educate-nav"></i>
+                                            </button>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-md-7 col-sm-6 col-xs-12">
@@ -397,10 +397,10 @@
                                                 </li>
                                                 <li class="nav-item">
                                                     <a href="faculty/#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
-															<img src="faculty/img/product/pro4.jpg" alt="" />
-															<span class="admin-name">Prof.Anderson</span>
-															<i class="fa fa-angle-down edu-icon edu-down-arrow"></i>
-														</a>
+                                                        <img src="faculty/img/product/pro4.jpg" alt="" />
+                                                        <span class="admin-name">Prof.Anderson</span>
+                                                        <i class="fa fa-angle-down edu-icon edu-down-arrow"></i>
+                                                    </a>
                                                     <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
                                                         <li><a href="faculty/#"><span class="edu-icon edu-home-admin author-log-ic"></span>My Account</a>
                                                         </li>
@@ -740,9 +740,9 @@
                                                                                         <div class="onoffswitch">
                                                                                             <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="example">
                                                                                             <label class="onoffswitch-label" for="example">
-																									<span class="onoffswitch-inner"></span>
-																									<span class="onoffswitch-switch"></span>
-																								</label>
+                                                                                                <span class="onoffswitch-inner"></span>
+                                                                                                <span class="onoffswitch-switch"></span>
+                                                                                            </label>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -756,9 +756,9 @@
                                                                                         <div class="onoffswitch">
                                                                                             <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="example3">
                                                                                             <label class="onoffswitch-label" for="example3">
-																									<span class="onoffswitch-inner"></span>
-																									<span class="onoffswitch-switch"></span>
-																								</label>
+                                                                                                <span class="onoffswitch-inner"></span>
+                                                                                                <span class="onoffswitch-switch"></span>
+                                                                                            </label>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -772,9 +772,9 @@
                                                                                         <div class="onoffswitch">
                                                                                             <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="example4">
                                                                                             <label class="onoffswitch-label" for="example4">
-																									<span class="onoffswitch-inner"></span>
-																									<span class="onoffswitch-switch"></span>
-																								</label>
+                                                                                                <span class="onoffswitch-inner"></span>
+                                                                                                <span class="onoffswitch-switch"></span>
+                                                                                            </label>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -788,9 +788,9 @@
                                                                                         <div class="onoffswitch">
                                                                                             <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="example7">
                                                                                             <label class="onoffswitch-label" for="example7">
-																									<span class="onoffswitch-inner"></span>
-																									<span class="onoffswitch-switch"></span>
-																								</label>
+                                                                                                <span class="onoffswitch-inner"></span>
+                                                                                                <span class="onoffswitch-switch"></span>
+                                                                                            </label>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -804,9 +804,9 @@
                                                                                         <div class="onoffswitch">
                                                                                             <input type="checkbox" name="collapsemenu" checked="" class="onoffswitch-checkbox" id="example2">
                                                                                             <label class="onoffswitch-label" for="example2">
-																									<span class="onoffswitch-inner"></span>
-																									<span class="onoffswitch-switch"></span>
-																								</label>
+                                                                                                <span class="onoffswitch-inner"></span>
+                                                                                                <span class="onoffswitch-switch"></span>
+                                                                                            </label>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -820,9 +820,9 @@
                                                                                         <div class="onoffswitch">
                                                                                             <input type="checkbox" name="collapsemenu" checked="" class="onoffswitch-checkbox" id="example6">
                                                                                             <label class="onoffswitch-label" for="example6">
-																									<span class="onoffswitch-inner"></span>
-																									<span class="onoffswitch-switch"></span>
-																								</label>
+                                                                                                <span class="onoffswitch-inner"></span>
+                                                                                                <span class="onoffswitch-switch"></span>
+                                                                                            </label>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -836,9 +836,9 @@
                                                                                         <div class="onoffswitch">
                                                                                             <input type="checkbox" name="collapsemenu" checked="" class="onoffswitch-checkbox" id="example5">
                                                                                             <label class="onoffswitch-label" for="example5">
-																									<span class="onoffswitch-inner"></span>
-																									<span class="onoffswitch-switch"></span>
-																								</label>
+                                                                                                <span class="onoffswitch-inner"></span>
+                                                                                                <span class="onoffswitch-switch"></span>
+                                                                                            </label>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -1088,7 +1088,7 @@
                                 <div class="row">
                                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-6">
                                         <div class="address-hr">
-                                            <p><b>Name</b><br /> Fly Zend</p>
+                                            <p><b>Name</b><br /> {{ Auth::user()->name }}</p>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-6">
@@ -1100,7 +1100,7 @@
                                 <div class="row">
                                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-6">
                                         <div class="address-hr">
-                                            <p><b>Email ID</b><br /> fly@gmail.com</p>
+                                            <p><b>Email ID</b><br /> {{Auth::user()->email}}</p>
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-6">
@@ -1153,14 +1153,14 @@
                                             <div class="review-content-section">
                                                 <div class="chat-discussion" style="height: auto">
                                                     <div class="chat-message">
-														<div class="profile-hdtc">
-															 <img class="message-avatar" src="faculty/img/contact/1.jpg" alt="">
-														</div>
+                                                        <div class="profile-hdtc">
+                                                            <img class="message-avatar" src="faculty/img/contact/1.jpg" alt="">
+                                                        </div>
                                                         <div class="message">
                                                             <a class="message-author" href="faculty/#"> Michael Smith </a>
                                                             <span class="message-date"> Mon Jan 26 2015 - 18:39:23 </span>
                                                             <span class="message-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-															</span>
+                                                            </span>
                                                             <div class="m-t-md mg-t-10">
                                                                 <a class="btn btn-xs btn-default"><i class="fa fa-thumbs-up"></i> Like </a>
                                                                 <a class="btn btn-xs btn-success"><i class="fa fa-heart"></i> Love</a>
@@ -1168,15 +1168,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="chat-message">
-														<div class="profile-hdtc">
-															 <img class="message-avatar" src="faculty/img/contact/2.jpg" alt="">
-														</div>
+                                                        <div class="profile-hdtc">
+                                                            <img class="message-avatar" src="faculty/img/contact/2.jpg" alt="">
+                                                        </div>
                                                         <div class="message">
                                                             <a class="message-author" href="faculty/#"> Karl Jordan </a>
-                                                            <span class="message-date">  Fri Jan 25 2015 - 11:12:36 </span>
+                                                            <span class="message-date"> Fri Jan 25 2015 - 11:12:36 </span>
                                                             <span class="message-content">
-																	Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover.
-																	</span>
+                                                                Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover.
+                                                            </span>
                                                             <div class="m-t-md mg-t-10">
                                                                 <a class="btn btn-xs btn-default"><i class="fa fa-thumbs-up"></i> Like </a>
                                                                 <a class="btn btn-xs btn-default"><i class="fa fa-heart"></i> Love</a>
@@ -1185,28 +1185,28 @@
                                                         </div>
                                                     </div>
                                                     <div class="chat-message">
-														<div class="profile-hdtc">
-															 <img class="message-avatar" src="faculty/img/contact/3.jpg" alt="">
-														</div>
+                                                        <div class="profile-hdtc">
+                                                            <img class="message-avatar" src="faculty/img/contact/3.jpg" alt="">
+                                                        </div>
                                                         <div class="message">
                                                             <a class="message-author" href="faculty/#"> Michael Smith </a>
-                                                            <span class="message-date">  Fri Jan 25 2015 - 11:12:36 </span>
+                                                            <span class="message-date"> Fri Jan 25 2015 - 11:12:36 </span>
                                                             <span class="message-content">
-																	There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.
-																	</span>
+                                                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.
+                                                            </span>
                                                         </div>
                                                     </div>
                                                     <div class="chat-message">
-														<div class="profile-hdtc">
-															 <img class="message-avatar" src="faculty/img/contact/4.jpg" alt="">
-														</div>
+                                                        <div class="profile-hdtc">
+                                                            <img class="message-avatar" src="faculty/img/contact/4.jpg" alt="">
+                                                        </div>
                                                         <div class="message">
                                                             <a class="message-author" href="faculty/#"> Alice Jordan </a>
-                                                            <span class="message-date">  Fri Jan 25 2015 - 11:12:36 </span>
+                                                            <span class="message-date"> Fri Jan 25 2015 - 11:12:36 </span>
                                                             <span class="message-content">
-																	All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
-																		It uses a dictionary of over 200 Latin words.
-																	</span>
+                                                                All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
+                                                                It uses a dictionary of over 200 Latin words.
+                                                            </span>
                                                             <div class="m-t-md mg-t-10">
                                                                 <a class="btn btn-xs btn-default"><i class="fa fa-thumbs-up"></i> Like </a>
                                                                 <a class="btn btn-xs btn-warning"><i class="fa fa-eye"></i> Nudge</a>
@@ -1214,16 +1214,16 @@
                                                         </div>
                                                     </div>
                                                     <div class="chat-message">
-														<div class="profile-hdtc">
-															 <img class="message-avatar" src="faculty/img/contact/1.jpg" alt="">
-														</div>
+                                                        <div class="profile-hdtc">
+                                                            <img class="message-avatar" src="faculty/img/contact/1.jpg" alt="">
+                                                        </div>
                                                         <div class="message">
                                                             <a class="message-author" href="faculty/#"> Mark Smith </a>
-                                                            <span class="message-date">  Fri Jan 25 2015 - 11:12:36 </span>
+                                                            <span class="message-date"> Fri Jan 25 2015 - 11:12:36 </span>
                                                             <span class="message-content">
-																	All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
-																		It uses a dictionary of over 200 Latin words.
-																	</span>
+                                                                All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
+                                                                It uses a dictionary of over 200 Latin words.
+                                                            </span>
                                                             <div class="m-t-md mg-t-10">
                                                                 <a class="btn btn-xs btn-default"><i class="fa fa-thumbs-up"></i> Like </a>
                                                                 <a class="btn btn-xs btn-success"><i class="fa fa-heart"></i> Love</a>
@@ -1231,15 +1231,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="chat-message">
-														<div class="profile-hdtc">
-															 <img class="message-avatar" src="faculty/img/contact/2.jpg" alt="">
-														</div>
+                                                        <div class="profile-hdtc">
+                                                            <img class="message-avatar" src="faculty/img/contact/2.jpg" alt="">
+                                                        </div>
                                                         <div class="message">
                                                             <a class="message-author" href="faculty/#"> Karl Jordan </a>
-                                                            <span class="message-date">  Fri Jan 25 2015 - 11:12:36 </span>
+                                                            <span class="message-date"> Fri Jan 25 2015 - 11:12:36 </span>
                                                             <span class="message-content">
-																	Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover.
-																	</span>
+                                                                Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover.
+                                                            </span>
                                                             <div class="m-t-md mg-t-10">
                                                                 <a class="btn btn-xs btn-default"><i class="fa fa-thumbs-up"></i> Like </a>
                                                                 <a class="btn btn-xs btn-default"><i class="fa fa-heart"></i> Love</a>
@@ -1248,28 +1248,28 @@
                                                         </div>
                                                     </div>
                                                     <div class="chat-message">
-														<div class="profile-hdtc">
-															 <img class="message-avatar" src="faculty/img/contact/3.jpg" alt="">
-														</div>
+                                                        <div class="profile-hdtc">
+                                                            <img class="message-avatar" src="faculty/img/contact/3.jpg" alt="">
+                                                        </div>
                                                         <div class="message">
                                                             <a class="message-author" href="faculty/#"> Michael Smith </a>
-                                                            <span class="message-date">  Fri Jan 25 2015 - 11:12:36 </span>
+                                                            <span class="message-date"> Fri Jan 25 2015 - 11:12:36 </span>
                                                             <span class="message-content">
-																	There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.
-																	</span>
+                                                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.
+                                                            </span>
                                                         </div>
                                                     </div>
                                                     <div class="chat-message">
-														<div class="profile-hdtc">
-															 <img class="message-avatar" src="faculty/img/contact/4.jpg" alt="">
-														</div>
+                                                        <div class="profile-hdtc">
+                                                            <img class="message-avatar" src="faculty/img/contact/4.jpg" alt="">
+                                                        </div>
                                                         <div class="message">
                                                             <a class="message-author" href="faculty/#"> Alice Jordan </a>
-                                                            <span class="message-date">  Fri Jan 25 2015 - 11:12:36 </span>
+                                                            <span class="message-date"> Fri Jan 25 2015 - 11:12:36 </span>
                                                             <span class="message-content">
-																	All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
-																		It uses a dictionary of over 200 Latin words.
-																	</span>
+                                                                All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.
+                                                                It uses a dictionary of over 200 Latin words.
+                                                            </span>
                                                             <div class="m-t-md mg-t-10">
                                                                 <a class="btn btn-xs btn-default"><i class="fa fa-thumbs-up"></i> Like </a>
                                                                 <a class="btn btn-xs btn-default"><i class="fa fa-heart"></i> Love</a>
@@ -1408,15 +1408,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="ex-pro">
-                                                            <ul>
-                                                                <li><i class="fa fa-angle-right"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                                                <li><i class="fa fa-angle-right"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                                                <li><i class="fa fa-angle-right"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                                                <li><i class="fa fa-angle-right"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                                                <li><i class="fa fa-angle-right"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                                                            </ul>
-                                                        </div>
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -1427,31 +1419,33 @@
                                     <div class="row">
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                             <div class="review-content-section">
+
                                                 <div class="row">
-                                                    <div class="col-lg-6">
+                                                    <div class="col-md-1"></div>
+                                                    <div class="col-md-10">
+                                                    <form action="{{route('profile.create')}}" method="POST">
+                                                        @csrf
                                                         <div class="form-group">
-                                                            <input name="number" type="text" class="form-control" placeholder="First Name">
+                                                            <input type="text" class="form-control" name="department" placeholder="Department">
                                                         </div>
                                                         <div class="form-group">
-                                                            <input type="text" class="form-control" placeholder="Last Name">
+                                                            <input name="designation" type="text" class="form-control" placeholder="Designation">
                                                         </div>
                                                         <div class="form-group">
-                                                            <input type="text" class="form-control" placeholder="Address">
+                                                            <input name="mobile_no" type="text" class="form-control" placeholder="Mobile number">
                                                         </div>
                                                         <div class="form-group">
-                                                            <input type="text" class="form-control" placeholder="Date of Birth">
+                                                            <textarea rows="4" cols="50" placeholder="Area of interest" name="area_of_interest"></textarea>
                                                         </div>
-                                                        <div class="form-group">
-                                                            <input type="text" class="form-control" placeholder="Department">
-                                                        </div>
-                                                        <div class="form-group">
-                                                            <input type="number" class="form-control" placeholder="Pincode">
-                                                        </div>
+
+
+
+
                                                         <div class="file-upload-inner ts-forms">
                                                             <div class="input prepend-big-btn">
                                                                 <label class="icon-right" for="prepend-big-btn">
-																		<i class="fa fa-download"></i>
-																	</label>
+                                                                    <i class="fa fa-download"></i>
+                                                                </label>
                                                                 <div class="file-button">
                                                                     Browse
                                                                     <input type="file" onchange="document.getElementById('prepend-big-btn').value = this.value;">
@@ -1459,63 +1453,20 @@
                                                                 <input type="text" id="prepend-big-btn" placeholder="no file selected">
                                                             </div>
                                                         </div>
-                                                    </div>
-                                                    <div class="col-lg-6">
-                                                        <div class="form-group sm-res-mg-15 tbpf-res-mg-15">
-                                                            <input type="text" class="form-control" placeholder="Description">
-                                                        </div>
-                                                        <div class="form-group">
-                                                            <select class="form-control">
-																<option>Select Gender</option>
-																<option>Male</option>
-																<option>Female</option>
-															</select>
-                                                        </div>
-                                                        <div class="form-group">
-                                                            <select class="form-control">
-																	<option>Select country</option>
-																	<option>India</option>
-																	<option>Pakistan</option>
-																	<option>Amerika</option>
-																	<option>China</option>
-																	<option>Dubai</option>
-																	<option>Nepal</option>
-																</select>
-                                                        </div>
-                                                        <div class="form-group">
-                                                            <select class="form-control">
-																	<option>Select state</option>
-																	<option>Gujarat</option>
-																	<option>Maharastra</option>
-																	<option>Rajastan</option>
-																	<option>Maharastra</option>
-																	<option>Rajastan</option>
-																	<option>Gujarat</option>
-																</select>
-                                                        </div>
-                                                        <div class="form-group">
-                                                            <select class="form-control">
-																	<option>Select city</option>
-																	<option>Surat</option>
-																	<option>Baroda</option>
-																	<option>Navsari</option>
-																	<option>Baroda</option>
-																	<option>Surat</option>
-																</select>
-                                                        </div>
-                                                        <div class="form-group">
-                                                            <input type="text" class="form-control" placeholder="Website URL">
-                                                        </div>
-                                                        <input type="number" class="form-control" placeholder="Mobile no.">
-                                                    </div>
+</div>
+
                                                 </div>
+
+                                                <div class="col-md-1"></div>
                                                 <div class="row">
+                                                    <br>
                                                     <div class="col-lg-12">
                                                         <div class="payment-adress mg-t-15">
                                                             <button type="submit" class="btn btn-primary waves-effect waves-light mg-b-15">Submit</button>
                                                         </div>
                                                     </div>
                                                 </div>
+                                                </form>
                                             </div>
                                         </div>
                                     </div>
