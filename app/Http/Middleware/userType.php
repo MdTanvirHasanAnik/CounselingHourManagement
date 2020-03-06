@@ -18,6 +18,9 @@ class userType
         if(auth()->user()->userType == 'faculty'){
             return $next($request);
         }
+        else if(auth()->user()->userType == 'student'){
+            return $next($request);
+        }
    
         return redirect(‘home’)->with(‘error’,"You don't have faculty access.");
     }

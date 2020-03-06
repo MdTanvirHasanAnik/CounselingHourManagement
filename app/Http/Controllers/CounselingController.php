@@ -4,9 +4,11 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Counseling;
+use App\User;
+
 use Auth;
 use Exceptions;
-use DB;
+use Illuminate\Support\Facades\DB;
 use Carbon\Carbon;
 
 class CounselingController extends Controller
@@ -17,7 +19,7 @@ class CounselingController extends Controller
     {
 
 
-
+        
         Counseling::create([
             'startTime' => $r['startTime'],
             'endTime' => $r['endTime'],
@@ -29,12 +31,30 @@ class CounselingController extends Controller
 
         return redirect()->back();
     }
+    public function deleteCounseling(Request $r)
+    {   
+        
+        $ls = Counseling::findOrFail($r['cid']);
+        $ls->delete();
+        $status ="success";
+        return back()->with('status', $status);
+    }
+    
+    public function getcounseling(Request $request){
+        $user = DB::table('users')->where('email', $request['email'])->first(); 
+        $counselings = Counseling::get()->where('user_id', $user->id );
+        
+       
+        
+      
+        return view('student/getcounseling', compact('counselings'));
+    }
 
 
 
 
     
-
+/* 
     public function slotting($startTime,  $endTime, $no_student)
 
     {
@@ -55,5 +75,5 @@ class CounselingController extends Controller
             $next = strtotime("" . $interval, $next);
             echo date('h:i a', $next);
         }
-    }
+    } */
 }
