@@ -1235,8 +1235,11 @@
 
 
                     </div>
-                    @if(!($data->isEmpty()))
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12  ">
+                    <div class="text-center"><h1>Counseling List</h1></div>
+
+                    @if(!($data->isEmpty()))
+                    
                         <table class="table table-hover ">
                             <tbody>
                                 <tr>
@@ -1274,7 +1277,9 @@
 
                     </div>
                     @else
+                    <div class="text-center">
                     <p> no data </p>
+                    </div>
                      @endif
                    
 

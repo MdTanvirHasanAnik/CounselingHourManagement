@@ -83,9 +83,9 @@
   </style>
 
   <style>
-    .input-icons i {
+  /*   .input-icons i {
       position: absolute;
-    }
+    } */
 
     .input-icons {
       width: 100%;
@@ -1186,7 +1186,7 @@
                         <div class="input-icons">
                           <i class="fa fa-envelope icon">
                           </i>
-                          <input class="input-field" type="text" placeholder="Email" id="email" name="email" required>
+                          <input class="input-field" type="text" placeholder="Email" id="email" name="email">
                         </div>
                       </div>
                       <div class="col-md-3">
@@ -1194,19 +1194,25 @@
                         <div class="input-icons">
                           <i class="fa fa-key icon">
                           </i>
-                          <input class="input-field" type="text" placeholder="ID" id="id">
+                          <input class="input-field" type="text" placeholder="ID" id="id" name="uid">
                         </div>
                       </div>
 
-                      <div class="col-md-1">
+                      <div class="col-md-1" style="margin-top: 35px">
                       
                         <button type="submit" class="btn btn-info"> Get Counseling List </button>
                         
                       </div>
 
                     </form>
+                    
                   </center>
                 </div>
+                @if(session('notfound'))
+                    <div class="row text-center text-danger">
+                      <p>{{session('notfound')}} </p>
+                    </div>
+                    @endif
               </div>
             </div>
           </div>

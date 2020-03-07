@@ -41,7 +41,19 @@ class CounselingController extends Controller
     }
     
     public function getcounseling(Request $request){
-        $user = DB::table('users')->where('email', $request['email'])->first(); 
+
+
+        
+        $user = DB::table('users')->where('email', $request['email'])->first();
+        if($user  === null){
+            $user = DB::table('users')->where('uid', $request['uid'])->first();
+            if ($user === null ){
+                return redirect()->back()->with('notfound', 'Email or ID not found!');
+                
+            }
+
+            
+        }
         $counselings = Counseling::get()->where('user_id', $user->id );
         
        

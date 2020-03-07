@@ -1,15 +1,28 @@
 @extends('layouts.app')
 
 @section('content')
+<link href="{{ asset('css/template/sign_up.css') }}" rel="stylesheet">
+<div class="container">
+
+    <div class="row justify-content-center">
+        <a href="{{ url('/') }}">  <div class="back_button">
+            <img  class="arrow" src="{{ asset('css/pictures/Arrow2.svg') }}">
+
+
+       </div>
+    </a>
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Register') }}</div>
+
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('register') }}">
                         @csrf
+                        <div class="form-group row">
+                            <img  class="logo" src="{{ asset('css/pictures/logo2.png') }}">
+                        </div>
 
                         <div class="form-group row">
                             <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Name') }}</label>
@@ -82,11 +95,13 @@
                         </div>
 
                         <div class="form-group row mb-0">
-                            <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
-                                    {{ __('Register') }}
-                                </button>
-                            </div>
+
+                                <div class="col-md-4 offset-md-8">
+                                    <button type="submit" class="btn btn-primary">
+                                       SUBMIT
+                                    </button>
+                                </div>
+
                         </div>
                     </form>
                 </div>
