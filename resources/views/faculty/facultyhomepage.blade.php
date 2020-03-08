@@ -1167,9 +1167,11 @@
             </div>
         </div>
         <div class="analytics-sparkle-area">
-            <div class="container-fluid">
+            <div class="container-fluid text-center">
                 <div class="row">
+
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12  ">
+                        <h3> Add Counseling Hour </h3>
                         <form action="{{ route('create.counseling') }}" method="post">
                             @csrf
                             <div class='col-md-4'>
@@ -1236,11 +1238,11 @@
 
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12  ">
-                    <div class="text-center"><h1>Counseling List</h1></div>
+                    <div class="text-center"><h3>Counseling List</h3></div>
 
                     @if(!($data->isEmpty()))
                     
-                        <table class="table table-hover ">
+                        <table class="table table-striped">
                             <tbody>
                                 <tr>
                                         <th>Day</th>
